@@ -1,6 +1,6 @@
 # Level 1: Hello, world of XSS
 
-URL: [https://xss-game.appspot.com/level1/frame](https://xss-game.appspot.com/level1/frame)
+URL: [https://xss-game.appspot.com/level1](https://xss-game.appspot.com/level1)
 
 ![Xss Game Appspot Level 1 Image](img/level-1.png)
 
