@@ -16,6 +16,8 @@ Inject a script to pop up a JavaScript alert() in the frame below.
 
 The first step is to analyze the application and observe how it works. This level contains search functionality. After submitting the search query, it is reflected on the webpage and URL through the query parameter. The search query is returned to the webpage without any escaping or sanitization.
 
+## Conclusion
+
 To pop an alert(), we can just inject a script tag with an alert code.
 
 ```javascript
