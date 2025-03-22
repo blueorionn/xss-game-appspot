@@ -31,6 +31,9 @@ The `ChooseTab()` function adds the fragment it takes from the URL to the image 
 
 ### Here's how our payload break out of DOM
 
-![Xss Game Appspot Level 3 Source Solved](img/console-solved.png)
+```html
+<img src="/static/level3/cloudx" onerror="alert(document.domain)">
+"//.jpg' />"
+```
 
 ![Xss Game Appspot Level 3 Solved](img/level-3-solved.png)
