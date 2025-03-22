@@ -22,6 +22,8 @@ Upon further inspection of the page `timer.html` line `21`, it was found that th
 <img src="/static/loading.gif" onload="startTimer('{{ timer }}');" />
 ```
 
+## Conclusion
+
 We can craft a javascript payload that, will get executed on the `onload` attribute pop the alert box.
 
 ```javascript
